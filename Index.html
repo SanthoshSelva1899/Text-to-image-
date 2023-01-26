@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagination_pic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+
+<form action="/predict" method="post" enctype="multipart/form-data" style="margin-top: 50px; width: 60%; text-align: center; margin: auto;" onsubmit="showloading()">
+  <span class="text-left btn btn-default btn-file">
+    <label for="fname">Type your imagination</label><br>
+    <input type="text" id="fname" name="fname"><br>
+  </span>   
+ 
+  <span class="text-right">
+     <input type="submit" value="Predict" class="btn btn-primary">
+   </span> 
+</form>
+</body>
+</html>
+
